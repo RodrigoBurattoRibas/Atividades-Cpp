@@ -21,6 +21,5 @@ int main() {
     atual = atual + ultimo;
     ultimo = transicao;
    }
-
   return 0;
 }
