@@ -14,12 +14,11 @@ int main() {
     if (atual == 0) {
         atual++;
     }
-
     for (int i = 1; i < vezes; i++) {
         cout << atual << ",";
         transicao = atual;
         atual = atual + ultimo;
         ultimo = transicao;
     }
-    return 0;
+    return 0;
 }
