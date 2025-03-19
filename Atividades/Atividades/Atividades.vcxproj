@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Atividades.cpp" />
+    <ClCompile Include="Atividade2.cpp" />
+    <ClCompile Include="Atividade1.cpp" />
+    <ClCompile Include="Atividade3.cpp" />
+    <ClCompile Include="Atividade4.cpp" />
+    <ClCompile Include="Atividade5.cpp" />
+    <ClCompile Include="Atividade6.cpp" />
+    <ClCompile Include="Atividade7.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

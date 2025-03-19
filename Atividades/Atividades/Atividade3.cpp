@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+
+    int pri = 0;
+
+    cout << "Digite um número para eu verificar se ele é primo ou não (digite apenas números inteiros positivos)" << endl;
+    cin >> pri;
+
+    if (pri <= 0) {
+        cout << "Não é válido";
+    }
+    else if (pri % 2 != 0 && pri % 3 != 0 || pri == 2 || pri == 3) {
+        cout << "É primo";
+    }
+    else {
+        cout << "Não é primo";
+    }
+    return 0;
+}
